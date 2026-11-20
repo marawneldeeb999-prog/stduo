@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" fill="none">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b07f68"/><stop offset=".5" stop-color="#e0b99a"/><stop offset="1" stop-color="#583f3b"/></linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2e3d1"/><stop offset="1" stop-color="#a88472"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#ffe4c1" stop-opacity=".85"/><stop offset="1" stop-color="#ffe4c1" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#back)"/>
+  <ellipse cx="437" cy="370" rx="340" ry="415" fill="url(#light)"/>
+  <path d="M66 110h171M66 110v171M834 990H663m171 0V819" stroke="#f4e3d2" stroke-opacity=".35" stroke-width="3"/>
+  <path d="M101 1100c31-214 148-339 352-339s322 125 346 339" fill="url(#shirt)"/>
+  <path d="M288 331c0-164 79-248 180-248 133 0 195 102 178 280l-16 149H307l-19-181Z" fill="#282221"/>
+  <ellipse cx="455" cy="413" rx="142" ry="187" fill="#ba836e"/>
+  <path d="M312 357c24-137 96-199 196-182 73 12 111 58 127 130-70 2-118-25-152-65-34 74-88 118-171 130Z" fill="#302522"/>
+  <path d="M365 410h47m94 0h46" stroke="#4a302a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M398 474c32 24 76 24 108 0" stroke="#74453d" stroke-width="7" stroke-linecap="round"/>
+  <path d="m446 424-15 49 24 4" stroke="#9e6758" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M362 587c31 40 61 60 95 60s66-20 97-60" stroke="#9c6558" stroke-width="8"/>
+  <path d="M290 844c87 42 195 44 322 0" stroke="#f8eadd" stroke-opacity=".65" stroke-width="4"/>
+  <text x="54" y="1030" fill="#fff4e8" font-family="Georgia,serif" font-size="24" letter-spacing="8">FRAME / PORTRAIT STUDY</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b9a17c"/><stop offset=".52" stop-color="#e8d7b9"/><stop offset="1" stop-color="#657162"/></linearGradient>
+    <radialGradient id="sun"><stop stop-color="#fff5da" stop-opacity=".9"/><stop offset="1" stop-color="#fff5da" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="451" cy="350" r="290" fill="url(#sun)"/>
+  <path d="M104 698V445a346 346 0 0 1 692 0v253" stroke="#f9f0df" stroke-opacity=".77" stroke-width="18"/>
+  <path d="M139 699V456a311 311 0 0 1 622 0v243" stroke="#f9f0df" stroke-opacity=".38" stroke-width="3"/>
+  <path d="M74 1100c26-245 159-353 378-353s348 108 374 353" fill="#ede5d7"/>
+  <path d="M133 1100c14-207 94-328 240-361 49 47 101 48 151 0 146 32 225 154 244 361" fill="#fbf8ef"/>
+  <path d="M373 739 451 862l78-123c-48 21-105 21-156 0Z" fill="#c6a978"/>
+  <ellipse cx="375" cy="572" rx="79" ry="111" fill="#bc8d70"/><ellipse cx="532" cy="560" rx="76" ry="106" fill="#d2a78b"/>
+  <path d="M296 573c-13-119 19-190 100-190 54 0 76 37 81 107-49-2-91-28-118-62-8 71-28 116-63 145Zm161-21c-6-121 26-180 88-180 71 0 108 75 82 206-22-71-52-102-100-118-21 45-44 75-70 92Z" fill="#352b25"/>
+  <path d="M323 1100c77-73 135-144 174-238l-46-43-52 105c-49 61-101 121-164 176" fill="#f3eddf"/>
+  <path d="M552 1100c-47-87-84-165-111-238l48-43 50 105c47 59 94 118 155 176" fill="#e4d7c2"/>
+  <text x="54" y="1030" fill="#fffaf0" font-family="Georgia,serif" font-size="24" letter-spacing="8">FRAME / WEDDING STORY</text>
+</svg>

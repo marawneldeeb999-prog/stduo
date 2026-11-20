@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" fill="none">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8c8a9"/><stop offset=".6" stop-color="#a18162"/><stop offset="1" stop-color="#594d40"/></linearGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a17c58"/><stop offset="1" stop-color="#46372c"/></linearGradient>
+    <linearGradient id="vase" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1dfbf"/><stop offset=".55" stop-color="#b89570"/><stop offset="1" stop-color="#71573f"/></linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#wall)"/>
+  <path d="M0 728h900v372H0z" fill="url(#table)"/>
+  <path d="M0 734h900" stroke="#ead8b8" stroke-opacity=".42" stroke-width="4"/>
+  <ellipse cx="459" cy="766" rx="294" ry="54" fill="#302820" opacity=".45"/>
+  <path d="M319 473c0-44 27-66 44-98h147c18 32 47 54 47 98l-24 247c-3 31-31 50-94 50s-93-19-96-50l-24-247Z" fill="url(#vase)" stroke="#f4e4c8" stroke-opacity=".6" stroke-width="4"/>
+  <path d="M390 379c30 7 62 8 94 0m-94 280c47 22 94 22 143 0" stroke="#f8ead2" stroke-opacity=".46" stroke-width="5"/>
+  <path d="M448 381V186m-2 151c-78-47-91-100-77-146 46 14 79 56 77 146Zm0-42c61-61 111-66 149-48-25 46-77 67-149 70Zm-1-96c-21-66-8-111 25-143 34 44 33 93-25 143Z" fill="#59664e"/>
+  <path d="M181 724c30-79 71-129 122-150l37 28c-31 39-55 82-74 130" fill="#657050"/>
+  <path d="M682 721c-22-81-59-138-108-166l-40 24c27 43 47 88 60 137" fill="#657050"/>
+  <circle cx="192" cy="598" r="52" fill="#d6b77d"/><circle cx="704" cy="574" r="61" fill="#c38a55"/>
+  <path d="M54 110 226 110M54 110v172M846 990H674m172 0V818" stroke="#fff4df" stroke-opacity=".37" stroke-width="3"/>
+  <text x="54" y="1030" fill="#fff4df" font-family="Georgia,serif" font-size="24" letter-spacing="8">FRAME / STILL LIFE</text>
+</svg>

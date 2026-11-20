@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0e8">
+  <meta name="description" content="فريم استوديو تصوير يحول الحكايات واللحظات إلى صور تستحق أن تبقى.">
+  <title>فريم | استوديو تصوير</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="فريم - الصفحة الرئيسية"><span class="brand-icon">F</span><span class="brand-name">FRAME<small>STUDIO · CAIRO</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="فتح القائمة"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="التنقل الرئيسي">
+      <a href="#work">معرض الأعمال</a><a href="#services">خدماتنا</a><a href="#about">عن فريم</a>
+      <a class="nav-cta" href="#booking">احجز جلستك <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-3d" aria-hidden="true">
+        <span class="shape shape-frame"></span>
+        <span class="shape shape-ring"></span>
+        <span class="shape shape-dot dot-one"></span>
+        <span class="shape shape-dot dot-two"></span>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> استوديو تصوير مستقل · القاهرة</p>
+        <h1>لحظاتك،<br><em>بصورة تستحقها.</em></h1>
+        <p class="hero-description">نلتقط التفاصيل التي لا تتكرر، ونحوّلها إلى حكايات بصرية تعيش معك طويلًا.</p>
+        <div class="hero-buttons"><a class="button button-dark" href="#work">شاهد أعمالنا <span>↓</span></a><a class="quiet-link" href="#booking">احجز جلسة تصوير <span>↗</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>نؤمن أن الصورة الجيدة<br>تُشعرك قبل أن تراها.</span></div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=1200&amp;q=88" alt="بورتريه فني بإضاءة دافئة من أعمال فريم">
+        <span class="photo-index">FIG. 01 — PORTRAIT STUDY</span>
+        <span class="hero-stamp">حكاية<br>في كل<br>إطار</span>
+      </div>
+      <div class="hero-side-label">FRAME YOUR MOMENT · 2025</div>
+    </section>
+
+    <section class="work-section section-wrap" id="work">
+      <div class="section-top">
+        <div><p class="eyebrow"><span></span> من عدستنا</p><h2>حكايات <em>في صور.</em></h2></div>
+        <p>من لحظاتك الخاصة إلى هوية علامتك التجارية، نبحث دائمًا عن زاوية مختلفة.</p>
+      </div>
+      <div class="filters" role="group" aria-label="تصفية معرض الصور">
+        <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">كل الأعمال <span>08</span></button>
+        <button class="filter-button" type="button" data-filter="portrait" aria-pressed="false">بورتريه</button>
+        <button class="filter-button" type="button" data-filter="wedding" aria-pressed="false">لحظات</button>
+        <button class="filter-button" type="button" data-filter="commercial" aria-pressed="false">تجاري</button>
+        <button class="filter-button" type="button" data-filter="architecture" aria-pressed="false">مساحات</button>
+        <button class="filter-button" type="button" data-filter="romance" aria-pressed="false">حب ورومانسية</button>
+        <button class="filter-button" type="button" data-filter="villas" aria-pressed="false">فلل ومشاريع</button>
+        <button class="filter-button" type="button" data-filter="buildings" aria-pressed="false">عماير وعمارة</button>
+        <button class="filter-button" type="button" data-filter="hotels" aria-pressed="false">فنادق ومنتجعات</button>
+      </div>
+      <div class="filter-suggestions" aria-label="صور الاقتراحات" aria-live="polite"></div>
+      <div class="gallery-grid">
+        <button class="gallery-card gallery-portrait" type="button" data-category="portrait" data-title="دراسة بورتريه — نور" data-image="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=1600&amp;q=90" aria-label="تكبير صورة دراسة بورتريه">
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="بورتريه بإضاءة دافئة"><span class="gallery-overlay"><small>بورتريه · 2025</small><b>نور، كما هي.</b><i>تكبير الصورة ↗</i></span>
+        </button>
+        <button class="gallery-card gallery-wedding" type="button" data-category="wedding" data-title="حكاية يوم — مريم وعمر" data-image="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&amp;fit=crop&amp;w=1600&amp;q=90" aria-label="تكبير صورة حكاية يوم">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="لحظة زفاف داخل قوس من الزهور"><span class="gallery-overlay"><small>لحظات · 2025</small><b>حكاية يوم.</b><i>تكبير الصورة ↗</i></span>
+        </button>
+        <button class="gallery-card gallery-buildings" type="button" data-category="buildings" data-title="عماير وحديثة — القاهرة" data-image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&amp;fit=crop&amp;w=1600&amp;q=90" aria-label="تكبير صورة مبنى وعمران حديث">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="واجهات مباني وعمران حديث"><span class="gallery-overlay"><small>عماير · 2024</small><b>المدينة بصورة أخرى.</b><i>تكبير الصورة ↗</i></span>
+        </button>
+        <button class="gallery-card gallery-architecture" type="button" data-category="architecture" data-title="ضوء ومساحة — بيت النور" data-image="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&amp;fit=crop&amp;w=1600&amp;q=90" aria-label="تكبير صورة معمارية">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="مساحة معمارية حديثة مضاءة بالنهار"><span class="gallery-overlay"><small>مساحات · 2024</small><b>ضوء ومساحة.</b><i>تكبير الصورة ↗</i></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="section-wrap">
+        <div class="section-top">
+          <div><p class="eyebrow"><span></span> ما نقدمه</p><h2>من الفكرة،<br><em>إلى الإطار.</em></h2></div>
+          <p>جلسة مصممة بعناية، تبدأ بحكايتك وتنتهي بصور تعبّر عنك.</p>
+        </div>
+        <div class="service-grid">
+          <button class="service-card" type="button" data-gallery="portrait"><span class="service-number">01</span><h3>بورتريه شخصي</h3><p>جلسات فردية تعكس شخصيتك، في الاستوديو أو في مكانك المفضل.</p><span class="service-arrow">↙</span></button>
+          <button class="service-card" type="button" data-gallery="wedding"><span class="service-number">02</span><h3>أفراح ومناسبات</h3><p>نحفظ اللحظات كما حدثت، بعفويتها ومشاعرها وتفاصيلها الصغيرة.</p><span class="service-arrow">↙</span></button>
+          <button class="service-card" type="button" data-gallery="commercial"><span class="service-number">03</span><h3>تصوير تجاري</h3><p>صور منتجات وهوية بصرية تروي قصة علامتك قبل أن تقول كلمة.</p><span class="service-arrow">↙</span></button>
+          <button class="service-card" type="button" data-gallery="architecture"><span class="service-number">04</span><h3>عمارة ومساحات</h3><p>نحتفي بالضوء والخطوط والتفاصيل التي تجعل المكان فريدًا.</p><span class="service-arrow">↙</span></button>
+          <button class="service-card" type="button" data-gallery="romance"><span class="service-number">05</span><h3>صور حب ورومانسية</h3><p>لقطات عفوية وحكايات بين حبيبين بتكوين ناعم ومشاعر حقيقية.</p><span class="service-arrow">↙</span></button>
+          <button class="service-card" type="button" data-gallery="villas"><span class="service-number">06</span><h3>فلل ومشاريع</h3><p>تصوير معماري وداخلي للفلل والمشروعات السكنية الفاخرة.</p><span class="service-arrow">↙</span></button>
+          <button class="service-card" type="button" data-gallery="buildings"><span class="service-number">07</span><h3>عماير ومباني</h3><p>واجهات ومباني مع إبراز الحجم والضوء والخطوط المعمارية.</p><span class="service-arrow">↙</span></button>
+          <button class="service-card" type="button" data-gallery="hotels"><span class="service-number">08</span><h3>فنادق ومنتجعات</h3><p>تصوير فاخر للغرف والمسابح والمرافق والضيافة.</p><span class="service-arrow">↙</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="about-mark" role="img" aria-label="مصورة تعمل داخل الاستوديو"><span>F.</span></div>
+      <div class="about-copy"><p class="eyebrow"><span></span> خلف العدسة</p><h2>نصوّر ما<br><em>لا يُقال.</em></h2><p>فريم مساحة للمصورين والحكايات. نعمل بفريق صغير وشغف كبير، ونؤمن أن أجمل صورة هي التي تشبه صاحبها، لا التي تشبه غيرها.</p><a class="button button-outline" href="contact.html">احكيلنا عن فكرتك <span>↗</span></a></div>
+      <div class="about-details"><span>01 — 04</span><p>جلسات مخصصة<br>لكل حكاية.</p><span class="detail-line"></span><small>CAIRO, EGYPT<br>30° 02' N — 31° 14' E</small></div>
+    </section>
+
+    <section class="booking-banner" id="booking">
+      <p class="eyebrow"><span></span> عندك حكاية؟</p><h2>خلّينا نحكيها <em>بالصورة.</em></h2><a class="button button-dark" href="contact.html">تعرف علينا أولًا <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home"><span class="brand-icon">F</span><span class="brand-name">FRAME<small>STUDIO · CAIRO</small></span></a>
+    <p>© 2025 فريم استوديو. كل الحقوق محفوظة.</p>    <a href="#home">العودة إلى أعلى الصفحة ↗</a>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة" hidden>
+    <button class="lightbox-close" type="button" aria-label="إغلاق الصورة">×</button>
+    <button class="lightbox-prev" type="button" aria-label="الصورة السابقة">›</button>
+    <button class="lightbox-next" type="button" aria-label="الصورة التالية">‹</button>
+    <figure><img src="" alt=""><figcaption></figcaption></figure>
+    <div class="lightbox-thumbnails" aria-label="اختيار صورة"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
